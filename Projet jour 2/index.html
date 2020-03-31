@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="icon" type="image/png" href="Image/google.png" />
+    <title>Google</title>
+    <script>
+        // Function to toogle visibility of apps-menu
+        function toggle_menu() {
+            // get apps-menu DOM element
+            var element = document.getElementById("apps-menu");
+
+            // If hidden, switch to visible
+            if (element.style.visibility === "hidden") {
+                element.style.visibility = "visible";
+            } else {
+                // else switch to hidden
+                element.style.visibility = "hidden";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <nav id="top-nav">
+        <p><a href="//mail.google.com">Gmail</a></p>
+        <p><a href="//www.google.fr/imghp">Images</a></p>
+        <p>
+            <a id="button-apps" href="#" onclick="toggle_menu()" title="Applications Google"><img src="image/apps.png" alt="Applications Google" /></a>
+        </p>
+        <p>
+            <a id="button-connexion" href="//accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.fr/">Connexion</a
+        >
+      </p>
+    </nav>
+
+    <div id="apps-menu" style="visibility: hidden;">
+      <table>
+        <tr>
+          <td>
+            <a href="" title="Compte"
+              ><img src="image/compte.png" alt="Compte"
+            /></a>
+            </td>
+            <td>
+                <a href="" title="Recherche"><img src="image/google.png" alt="Recherche" /></a>
+            </td>
+            <td>
+                <a href="" title="Maps"><img src="image/maps.png" alt="Maps" /></a>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="" title="Youtube"><img src="image/youtube.png" alt="Youtube" /></a>
+                </td>
+                <td>
+                    <a href="" title="Play"><img src="image/play.png" alt="Play" /></a>
+                </td>
+                <td>
+                    <a href="" title="Actualités"><img src="image/actualite.png" alt="Actualité" /></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="" title="Gmail"><img src="image/gmail.png" alt="Gmail" /></a>
+                </td>
+                <td>
+                    <a href="" title="Contacts"><img src="image/contact.png" alt="Contacts" /></a>
+                </td>
+                <td>
+                    <a href="" title="Drive"><img src="image/drive.png" alt="Drive" /></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="" title="Agenda"><img src="image/agenda.png" alt="Agenda" /></a>
+                </td>
+                <td>
+                    <a href="" title="Traduction"><img src="image/trad.png" alt="Traduction" /></a>
+                </td>
+                <td>
+                    <a href="" title="Photos"><img src="image/photos.png" alt="Photos" /></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="" title="Chrome"><img src="image/chrome.png" alt="Chrome" /></a>
+                </td>
+                <td>
+                    <a href="" title="Shopping"><img src="image/shopping.png" alt="Shopping" /></a>
+                </td>
+                <td>
+                    <a href="" title="Duo"><img src="image/duo.png" alt="Duo" /></a>
+                </td>
+            </tr>
+            </table>
+            </div>
+
+            <div id="main">
+                <a href="//www.google.fr"><img id="Logo" src="image/logo.png" title="Google" /></a>
+                <form action="//google.fr/search" method="GET">
+                    <div id="search-text">
+                        <img id="search-text-loupe" src="image/loupe.png" alt="Recherche" />
+                        <input type="text" name="q" title="Tapez votre recherche ici" />
+                    </div>
+                    <div id="search-buttons">
+                        <input type="submit" value="Recherche Google" />
+                        <input type="submit" name="btnI" value="J'ai de la chance" />
+                    </div>
+                </form>
+                <div id="message-promo">
+                    <img src="//www.gstatic.com/images/hpp/dothefive_90x90t.gif" width="45" height="45" alt="attention" />
+                    <a href="#">5 GESTES BARRIÈRES pour freiner le coronavirus</a>
+                </div>
+            </div>
+            <footer id="footernav">
+                <nav>
+                    <div class="footernav">
+                        <p>
+                            <a href="//www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiw363isMToAhXC8-AKHWOODhgQkdQCCBc&url=https%3A%2F%2Fwww.google.com%2Fintl%2Ffr_fr%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw1aYP8_R8Sd__IBmabb3bt4">Publicité</a
+            >
+          </p>
+          <p>
+            <a
+              href="//www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiw363isMToAhXC8-AKHWOODhgQktQCCBg&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K"
+              >Entreprise</a
+            >
+          </p>
+          <p>
+            <a
+              href="//www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiw363isMToAhXC8-AKHWOODhgQkNQCCBk&url=https%3A%2F%2Fabout.google%2F%3Futm_source%3Dgoogle-FR%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw2FXL3-LVIL6HoBq0oweElA"
+              >À propos</a
+            >
+          </p>
+          <p>
+            <a href="//google.com/search/howsearchworks/?fg=1"
+              >Comment fonctionne la recherche Google?</a
+            >
+          </p>
+        </div>
+        <div class="footernav">
+          <p>
+            <a href="//support.google.com/websearch?p=fr_tos&hl=fr&fg=1"
+              >Publications judiciaire</a
+            >
+          </p>
+          <p>
+            <a
+              href="//www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiw363isMToAhXC8-AKHWOODhgQ9NMDCBI&url=https%3A%2F%2Fsupport.google.com%2Fwebsearch%3Fp%3Dfr_consumer_info%26hl%3Dfr%26fg%3D1&usg=AOvVaw2Hh0QSd76Waw_vDJR_K2KN"
+              >Info consommateurs</a
+            >
+          </p>
+          <p>
+            <a
+              href="//www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiw363isMToAhXC8-AKHWOODhgQ8awCCBM&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Ffg%3D1&usg=AOvVaw12z8DS9cd-g0Aokit_wxri"
+              >Confidentialité</a
+            >
+          </p>
+          <p>
+            <a
+              href="//www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiw363isMToAhXC8-AKHWOODhgQ8qwCCBQ&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Ffg%3D1&usg=AOvVaw3sEM_N0elgYQx8WbCXpj3n"
+              >Conditions</a
+            >
+          </p>
+          <p>
+            <a
+              href="//www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiw363isMToAhXC8-AKHWOODhgQzq0CCBU&url=https%3A%2F%2Fwww.google.com%2Fpreferences%3Fhl%3Dfr&usg=AOvVaw1Z0Yi9EwVWnjnl-U5CFOv3"
+              >Paramètres</a
+            >
+          </p>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
