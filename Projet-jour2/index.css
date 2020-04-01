@@ -114,6 +114,7 @@ a:link:hover {
 
 #search-text input {
     border: none;
+    width: 200%;
 }
 
 #search-buttons input {
