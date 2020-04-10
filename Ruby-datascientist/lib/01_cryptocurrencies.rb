@@ -24,7 +24,7 @@ def elementsWithCoin(hash)
     countNumero = 0
 
     hash.keys.each do |element|
-        if element =~ /coin/
+        if element =~ /coin/i
             countNumero = countNumero + 1
         end
     end
